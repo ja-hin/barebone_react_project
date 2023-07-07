@@ -8,14 +8,17 @@ function App() {
     {
       amount: "$400,000.",
       title: "Total Budget you own",
+      color: "white"
     },
     {
       amount: "$299,000",
       title: "Spent month to date",
+      color:"#92c1f7"
     },
     {
       amount: "$378,000",
       title: "Forecasted till month end",
+      color:"#6dd6a9"
     },
   ];
   const BucketTableData = [

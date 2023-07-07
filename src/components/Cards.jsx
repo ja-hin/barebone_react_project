@@ -12,6 +12,7 @@ const Cards = ({ data }) => {
         flexDirection: "row",
         justifyContent: "space-evenly",
         alignItems: "center",
+        backgroundColor:'{data?.color}',
       }}
     >
       {data.map((item) => {

@@ -4,7 +4,6 @@ const Card = ({ data }) => {
   return (
     <div
       style={{
-        backgroundColor: "white",
         width: "250px",
         borderRadius: "10px",
         border: '1px solid black',
@@ -12,6 +11,7 @@ const Card = ({ data }) => {
         flexDirection: "column",
         justifyContent: "space-between",
         alignItems: "center",
+        backgroundColor:data?.color,
       }}
     >
       <h3>{data?.amount}</h3>
